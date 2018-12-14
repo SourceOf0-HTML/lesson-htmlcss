@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* ------共通・基本設定------ */
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body {
+    margin: 8px;  /* 参考画像に余白があったので一応設定 */
+    padding: 0;
+    width: 1000px;  /* main(700px) + menu(300px) */
+}
+
+
+/* ------背景色設定------ */
+
+header {
+    background-color: #ffcccc;
+}
+#main {
+    background-color: #ccffcc;
+}
+#menu {
+    background-color: #ccccff;
+}
+footer {
+    background-color: #ffccff;
+}
+
+
+/* ------レイアウト設定------ */
+
+#main {
+    width: 700px;
+    float: left;
+}
+
+#menu {
+    width: 300px;
+    float: right;
+}
+
+
+/* EOF */
